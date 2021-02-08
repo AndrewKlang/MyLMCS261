@@ -1,0 +1,8 @@
+# Scratch
+- In my process of playing around with Scratch, I had an idea I wanted to start with.
+- So my idea was to first figure out how to move sprites.
+- Once I figured out how to get sprites to move with certain blocks, I started adding more sprites.
+- My next step was to figure out how to make certain events trigger other events.
+- After much trail and error, I learned how to make backgrounds trigger sounds, sounds trigger movements, and such to trigger other loops.
+- With this knowledge I added custom sounds and backgrounds that can be activated by doing certain movements within the game!
+- The only thing that really confused me and that I couldn't really figure out was how to fully reset the game after doing different events without just refreshing the page.
