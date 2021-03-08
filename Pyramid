@@ -1,0 +1,38 @@
+# Pyramid
+Starting off the Pyramid
+- My first approach to figuring out the pyramid was starting with for loops.
+  - This approach gave me a bit of progress by using this line of code to create
+    8 #'s in a line.
+    - for x in range(8):
+	       print("#")
+  - To try to go off of this, I used this code to make a box
+    - for x in range(stack):
+        for y in range(stack):
+          print('#', end='')
+            print()
+- However after this point is where I started to hit a wall.
+  - I played around with adding a - to the stacks or parts of the function and
+    would either get syntax errors or get 40 #'s in a row.
+- After this I started from scratch and tried to go step by step direction wise.
+- To complete the first step asked I put down this
+  - stack = int(input("how tall should the pyramid be from 1 to 8: "))
+- To complete the second step I wrote this
+  - if stack > 8:
+	   print("event failed, exit program")
+  - However I still never figured out how to fully make the pyramid using the
+    stack method being asked.
+  - I did however look up a video on looping in python and created this solution
+    which makes the pyramid. https://www.youtube.com/watch?v=OnDr4J2UXSA
+    - a = ["       #", "      ##", "     ###", "    ####", "   #####",
+      "  ######", " #######", "########"]
+      >>> for stack in a:
+	       print(stack)
+    - which although I know this isn't the way you wanted to get the pyramid,
+      I wanted to at least find one way to do it, because after staring and
+      typing in idle for a few hours I just couldn't figure out that last piece
+      I was missing.
+    - I would string together for statements, however they never work the way I
+      wanted them too.
+      - I feel like it's something that will click with next class when we go
+        over how people solved it, and if not I'll just go to your next office
+        hour!
