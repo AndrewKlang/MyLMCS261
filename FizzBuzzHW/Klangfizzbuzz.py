@@ -1,0 +1,129 @@
+Python 3.9.1 (v3.9.1:1e5d33e9b9, Dec  7 2020, 12:10:52) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> number = 0
+>>> while number < 100:
+	number = number + 1
+	if (number % 3 == 0):
+		print("fizz")
+		if (number % 5 == 0):
+			print("Buzz")
+			if (number % 3,5 == 0):
+				print("FizzBuzz")
+	else:
+		print(f"{number}")
+
+		
+1
+2
+fizz
+4
+5
+fizz
+7
+8
+fizz
+10
+11
+fizz
+13
+14
+fizz
+Buzz
+FizzBuzz
+16
+17
+fizz
+19
+20
+fizz
+22
+23
+fizz
+25
+26
+fizz
+28
+29
+fizz
+Buzz
+FizzBuzz
+31
+32
+fizz
+34
+35
+fizz
+37
+38
+fizz
+40
+41
+fizz
+43
+44
+fizz
+Buzz
+FizzBuzz
+46
+47
+fizz
+49
+50
+fizz
+52
+53
+fizz
+55
+56
+fizz
+58
+59
+fizz
+Buzz
+FizzBuzz
+61
+62
+fizz
+64
+65
+fizz
+67
+68
+fizz
+70
+71
+fizz
+73
+74
+fizz
+Buzz
+FizzBuzz
+76
+77
+fizz
+79
+80
+fizz
+82
+83
+fizz
+85
+86
+fizz
+88
+89
+fizz
+Buzz
+FizzBuzz
+91
+92
+fizz
+94
+95
+fizz
+97
+98
+fizz
+100
+>>> 
