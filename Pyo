@@ -1,0 +1,22 @@
+# Pyo
+Running Pyo
+- After downloading Pyo during class, I tried out the different .py files you sent us to test it out.
+  - First I tried two different ways of using them.
+    - Coping the code from Git and placing it in my IDLE and trying to download the .py files
+      - Downloading the .py files didn't work too well for me since it kept auto saving as a .html file
+        and even after changing it to a .py it was a mess of random code.
+      - So I tried in the end just doing it all manually and writing it into IDLE.
+- Dulcimerplayer.py
+  - This one gave me some trouble.
+  - First I downloaded the aiff to see how it sounded like, and that worked.
+  - Afterwards I tried running the code and for some reason when I get to the fourth line IDLE gives me
+    an error saying that it cannot unpack non-iterable items.
+    - snd = SndTable("/Users/rrome/Documents/GitHub/lmsc261sp21/110Debugging/dulcimer.aiff")
+    - I was a bit confused so I tried using different links to the aiff, but it just kept giving me the
+      same error message.
+- Melodies.py
+  - This one worked the first time putting it in.
+    - It sounded like noises just being picked at random.
+    - The fact that this one worked told me that I downloaded pyo corectly and it might just be something
+      with the fourth step in the other .py that doesn't work for me.
+    
